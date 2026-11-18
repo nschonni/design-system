@@ -149,6 +149,11 @@ div.toc .active {
   border-color: #8f8f8f !important;
 }
 
+.prompt-block.copied {
+  outline: 3px solid #278400;
+  outline-offset: 2px;
+}
+
 .do-guideline {
   margin-left: 12px;
   padding-left: 20px;
@@ -1201,6 +1206,10 @@ h1 span.stacked span:nth-child(2) {
   .provisional.contributors ul {
     margin-inline-start: 1.5em;
   }
+}
+/* Space between row groups in grouped tables, instead of empty spacer rows */
+.sg-tbl-grouped > tbody + tbody > tr:first-child > th {
+  padding-top: 1.5em;
 }
 
 /*# sourceMappingURL=custom.css.map */
